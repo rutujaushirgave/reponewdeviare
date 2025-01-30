@@ -66,6 +66,6 @@ class Test_01_Admin_Login:
             self.driver.save_screenshot("C:\\Users\\Dell\\PycharmProjects\\Deviare_new_framework\\pythonProject\\screenshots\\test_valid_admin_login1.png")
             self.driver.close()
             assert False
-
+#####
 
 
