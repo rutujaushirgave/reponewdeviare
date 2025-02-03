@@ -6,7 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from base_pages.Login_Admin_Page import Login_Admin_Page
 from selenium.webdriver.common.by import By
-from utilities.custome_logger import Log_maker
+#from utilities.custome_logger import Log_maker
 
 from base_pages.CreatingUser import Create_New_user
 from base_pages.CustomerOnboarding import Customer_Onboarding
@@ -25,10 +25,10 @@ class Test_04_create_user:
 
     def test_create_new_user(self, setup):
         self.driver = setup
-        self.logger.info("###test_valid_admin_login####")
+        #self.logger.info("###test_valid_admin_login####")
         self.driver.get(self.admin_page_url)
         self.driver.maximize_window()
-        self.logger.info("****Opening URL****")
+        #self.logger.info("****Opening URL****")
         self.customer_onboard = Customer_Onboarding(self.driver)
         self.customer_onboard.enter_username(self.username)
         self.customer_onboard.enter_password(self.password)

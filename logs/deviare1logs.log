@@ -665,3 +665,43 @@
 2025-01-30 16:38:20:WARNING:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F07427A750>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/169dfe9148ea5e66dc1495e2e18c3807:
 2025-01-30 16:38:24:WARNING:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F07427B4A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/169dfe9148ea5e66dc1495e2e18c3807:
 2025-01-30 16:38:28:WARNING:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F07427A4E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/169dfe9148ea5e66dc1495e2e18c3807:
+2025-02-03 16:31:26:INFO:====== WebDriver manager ======:
+2025-02-03 16:31:30:INFO:Get LATEST chromedriver version for google-chrome:
+2025-02-03 16:31:30:INFO:Get LATEST chromedriver version for google-chrome:
+2025-02-03 16:31:31:INFO:Get LATEST chromedriver version for google-chrome:
+2025-02-03 16:31:31:INFO:WebDriver version 132.0.6834.159 selected:
+2025-02-03 16:31:31:INFO:Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.159/win32/chromedriver-win32.zip:
+2025-02-03 16:31:31:INFO:About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.159/win32/chromedriver-win32.zip:
+2025-02-03 16:31:32:INFO:Driver downloading response is 200:
+2025-02-03 16:31:34:INFO:Get LATEST chromedriver version for google-chrome:
+2025-02-03 16:31:34:INFO:Driver has been saved in cache [C:\Users\Dell\.wdm\drivers\chromedriver\win64\132.0.6834.159]:
+2025-02-03 16:31:38:INFO:###test_valid_admin_login####:
+2025-02-03 16:31:54:INFO:****Opening URL****:
+2025-02-03 16:32:12:INFO:====== WebDriver manager ======:
+2025-02-03 16:32:15:INFO:Get LATEST chromedriver version for google-chrome:
+2025-02-03 16:32:15:INFO:Get LATEST chromedriver version for google-chrome:
+2025-02-03 16:32:15:INFO:Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache:
+2025-02-03 16:32:18:INFO:####test_title_verification###:
+2025-02-03 16:32:35:INFO:****Opening URL****:
+2025-02-03 16:32:40:INFO:************Title match************:
+2025-02-03 16:32:43:INFO:====== WebDriver manager ======:
+2025-02-03 16:32:47:INFO:Get LATEST chromedriver version for google-chrome:
+2025-02-03 16:32:47:INFO:Get LATEST chromedriver version for google-chrome:
+2025-02-03 16:32:47:INFO:Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache:
+2025-02-03 16:32:50:INFO:###test_valid_admin_login####:
+2025-02-03 16:33:10:INFO:****Opening URL****:
+2025-02-03 16:33:10:INFO:****Entering Username****:
+2025-02-03 16:33:11:INFO:****Entering password****:
+2025-02-03 16:33:18:INFO:************Platform_finded************:
+2025-02-03 16:33:23:INFO:====== WebDriver manager ======:
+2025-02-03 16:33:28:INFO:Get LATEST chromedriver version for google-chrome:
+2025-02-03 16:33:28:INFO:Get LATEST chromedriver version for google-chrome:
+2025-02-03 16:33:28:INFO:Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache:
+2025-02-03 16:33:31:INFO:###test_valid_admin_login####:
+2025-02-03 16:33:39:INFO:****Opening URL****:
+2025-02-03 16:33:52:INFO:====== WebDriver manager ======:
+2025-02-03 16:33:56:INFO:Get LATEST chromedriver version for google-chrome:
+2025-02-03 16:33:56:INFO:Get LATEST chromedriver version for google-chrome:
+2025-02-03 16:33:56:INFO:Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache:
+2025-02-03 16:33:58:INFO:###test_valid_admin_login####:
+2025-02-03 16:34:11:INFO:****Opening URL****:
