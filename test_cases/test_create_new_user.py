@@ -21,7 +21,7 @@ class Test_04_create_user:
     username = os.getenv('superadmin')
     password = os.getenv('password')
     invalid_username = os.getenv('invalid_username')
-    logger = Log_maker.log_gen()
+    #logger = Log_maker.log_gen()
 
     def test_create_new_user(self, setup):
         self.driver = setup
@@ -39,10 +39,10 @@ class Test_04_create_user:
         self.create_user = Create_New_user(self.driver)
         self.create_user.click_users()
         self.create_user.click_create_users()
-        self.create_user.enter_first_name("jantest123")
-        self.create_user.enter_surname("jantest1233")
-        self.create_user.enter_username("jantest123")
-        self.create_user.enter_email("jantest123@yopmail.com")
+        self.create_user.enter_first_name("jantest12")
+        self.create_user.enter_surname("jantest12")
+        self.create_user.enter_username("jantest12")
+        self.create_user.enter_email("jantest12@yopmail.com")
         self.create_user.click_company_name()
         self.create_user.select_company_name()
         self.create_user.select_role()
